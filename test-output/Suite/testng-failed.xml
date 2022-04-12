@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Chrome Test(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="org.sample.a">
+        <methods>
+          <include name="tc" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.sample.a -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test thread-count="5" name="FireFox Test(failed)">
+    <parameter name="Browser" value="ff"/>
+    <classes>
+      <class name="org.sample.a">
+        <methods>
+          <include name="tc" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.sample.a -->
+    </classes>
+  </test> <!-- FireFox Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
