@@ -28,7 +28,7 @@ public class Sample extends HelperClass{
 		
 		fillText(f.getTxtuser(),"greens");
 		fillText(f.getTxtpass(),"1234567");
-	
+	System.out.println("zr");
 
 	}
 	
